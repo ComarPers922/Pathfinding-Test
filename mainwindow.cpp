@@ -232,7 +232,7 @@ void MainWindow::myTimerEvent()
     static int index = 0;
     if(index >= (int)vec.size()-1)
     {
-        QMessageBox::information(this,"Satus Report！","I successfully get the destination！");
+        QMessageBox::information(this,"Status Report！","I successfully get the destination！");
         timer->stop();
     }
     rects.at(vec.at(index++))->isPartOfWay = true;
